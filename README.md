@@ -1,40 +1,11 @@
-# Create Repo with docmd · GitHub Templates
+# Sobre QiZafra
+El presente repositorio contiene la documentación (y posiblemente) el código relacionado con nuestro proyecto de semestre para la asignatura de Fundamentos de Ingeniería de Software. Dicha documentación se encuentra hospedada en GitHub Pages, un herramienta que nos encontramos explorando y aprendiendo actualmente.
 
-[![Use this template](https://img.shields.io/badge/template-launch_repo_with_docmd-blue?style=flat-square&logo=github)](https://github.com/docmd-io/docmd-template/generate)
+A grandes rasgos, nuestro proyecto está orientado a la producción de caña en Puga, donde nuestro software proporcionará funciones que auxiliarán en los diferentes procesos que intervienen en la misma. Dichas funciones incluyen inventario, administración de personal, proyecciones, estadísticas, herramientas de coordinación (especialmente en forma de horarios), y otras más que aún se encuentran en discusión.
 
-The fastest way to start a documentation site with [docmd](https://github.com/docmd-io/docmd) — pre-configured and ready to deploy.
-
-## Get started
-
-1. Click **[Use this template](https://github.com/docmd-io/docmd-template/generate)** and create your repository
-2. Update `docmd.config.json` with your site title and URL
-3. Push to `main` — your site deploys automatically
-
-> Your site will be live at `https://<username>.github.io/<repo>/`
-
-## What's included
-
-```
-.github/workflows/docs.yml   # Auto-deploy on push to main
-docmd.config.json            # Site title, URL, and output directory
-docs/index.md                # Your first page
-package.json                 # Local dev scripts
-```
-
-## Local development
-
-```bash
-npm install
-npm run dev      # Live preview at localhost:3000
-npm run build    # Build to site/
-```
-
-## First-time setup
-
-GitHub Pages must be set to deploy from **GitHub Actions** (not a branch).
-
-Go to **Settings → Pages → Source → GitHub Actions**.
-
-This only needs to be configured once per repository.
-
-#### [Website](https://docmd.io) • [Documentation](https://docs.docmd.io) • [MIT License](LICENSE)
+# Sobre nosotros
+Nuestro equipo (anteriormente llamado de forma informal 'ElQueSea') se conforma por los siguientes integrantes:
+- 🐏 Mártir Partida José Manuel
+- 🐟 Pulido Rubio Marlon Daniel
+- 🦁 Rojano Meza Leonardo Gael
+- 🐀 Silva Chairez Sergio de Jesús

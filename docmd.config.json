@@ -4,7 +4,8 @@
   "src": "docs",
   "out": "site",
   "theme": {
-    "name": "default"
+    "name": "default",
+    "customCss": ["/assets/css/custom.css"]
   },
   "plugins": {
     "seo": {
