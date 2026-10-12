@@ -15,25 +15,35 @@
   },
   "navigation": [
     {
-      "title": "Home",
+      "title": "Inicio",
       "path": "/",
       "icon": "home"
     },
     {
-      "title": "Resources",
-      "icon": "feather",
-      "collapsible": false,
+      "title": "Artefactos",
+      "path": "/artefactos",
+      "icon": "book-bookmark",
       "children": [
-        {
-          "title": "Documentation",
-          "path": "external:https://docs.docmd.io",
-          "external": true
-        },
-        {
-          "title": "Configuration Guide",
-          "path": "external:https://docs.docmd.io/configuration/overview",
-          "external": true
-        }
+        { "title": "A01 Primera Entrevista", "path": "/artefactos/01-primera-entrevista"},
+        { "title": "A02 Charter", "path": "/artefactos/02-charter"},
+        { "title": "A03 Diagrama BPMN", "path": "/artefactos/03-diagrama-bpmn"},
+        { "title": "A04 Requisitos", 
+          "path": "/artefactos/04-requisitos", 
+          "children": [
+          { "title": "A04.1 Requisitos Funcionales", "path": "/artefactos/04-requisitos/funcionales"},
+          { "title": "A04.2 Requisitos No Funcionales", "path": "/artefactos/04-requisitos/no-funcionales"},
+          { "title": "A04.3 Requisitos de Dominio", "path": "/artefactos/04-requisitos/de-dominio"}
+        ]},
+        { "title": "A05 Segunda Entrevista", "path": "/artefactos/05-segunda-entrevista"}
+      ]
+    },
+    {
+      "title": "Recursos",
+      "path": "/recursos",
+      "icon": "drafting-compass",
+      "children": [
+        { "title": "R01 Marca", "path": "/recursos/01-marca"},
+        { "title": "R02 Diseño de Marca", "path": "/recursos/02-diseno-de-marca"}
       ]
     }
   ]
