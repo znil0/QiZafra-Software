@@ -8,6 +8,10 @@
     "customCss": ["/assets/css/custom.css"]
   },
   "plugins": {
+    "ai": {
+      "assistant": false,
+      "enabled": false
+    },
     "seo": {
       "defaultDescription": "Documentation built with docmd."
     },
