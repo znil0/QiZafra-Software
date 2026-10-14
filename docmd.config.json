@@ -38,7 +38,8 @@
           { "title": "A04.2 Requisitos No Funcionales", "path": "/artefactos/04-requisitos/no-funcionales"},
           { "title": "A04.3 Requisitos de Dominio", "path": "/artefactos/04-requisitos/de-dominio"}
         ]},
-        { "title": "A05 Segunda Entrevista", "path": "/artefactos/05-segunda-entrevista"}
+        { "title": "A05 Segunda Entrevista", "path": "/artefactos/05-segunda-entrevista"},
+        { "title": "A06 Descripción", "path": "/artefactos/06-descripcion"}
       ]
     },
     {
